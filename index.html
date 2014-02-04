@@ -1,0 +1,48 @@
+﻿<!doctype html>
+<html>
+ <head>
+  <title>3D-Modell-Test</title>
+  <script src="js/three.min.js" type="text/javascript"></script>
+  <script src="js/Detector.js" type="text/javascript"></script>
+  <script src="js/ColladaLoader.js" type="text/javascript"></script>
+  <script src="js/3d.js" type="text/javascript"></script>
+  <style type="text/css">
+html, body {
+ margin: 0;
+ padding: 0;
+}
+#info {
+ position: fixed;
+ right: 0;
+ top: 0;
+ padding: 1em 1em 0 1em;
+ font-size: 10pt;
+ font-family: "Lucida Console", monospace;
+ opacity: 0.7;
+ background-color: #330;
+ color: white;
+}
+#info dt {
+ color: yellow;
+}
+  </style>
+ </head>
+ <body>
+  <div id="3dmodell"></div>
+  <div id="info">
+   Steuerung der Animation per Tastatur:
+   <dl>
+    <dt>Leertaste</dt>
+    <dd>Pause</dd>
+    <dt>Pfeil links/rechts</dt>
+    <dd>Objekt an der X-Achse drehen</dd>
+    <dt>Pfeil rauf/runter</dt>
+    <dd>Objekt an der Y-Achse drehen</dd>
+    <dt>Bild rauf/runter</dt>
+    <dd>Objekt an der Z-Achse drehen</dd>
+    <dt>Plus/Minus</dt>
+    <dd>Größer/kleiner</dd>
+   </dl>
+  </div>
+ </body>
+</html>
